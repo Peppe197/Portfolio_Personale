@@ -51,7 +51,7 @@ h4 {
 header {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     padding-top: 2.1vh;
     padding-bottom: 2.1vh;
     position: fixed;
@@ -100,7 +100,8 @@ a:hover {
 .block_me,
 .block_proj {
     display: flex;
-    width: 100vw;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .block2,
@@ -298,93 +299,6 @@ a:hover {
     filter: saturate(135%) sepia(10%) brightness(104%);
     transition: 200ms ease-in;
 
-}
-
-@media (max-width: 767px) {
-    .block1 {
-        height: 100vh;
-    }
-    
-    .block1,
-    .block2,
-    .block3,
-    .block_me,
-    .block_proj {
-        display: flex;
-        width: 100vw;
-    }
-    
-    .block2,
-    .block3 {
-        height: 74.03vh;
-    }
-    
-    .block2,
-    .block_me,
-    .block_proj {
-        background-color: #FBD281;
-    }
-    
-    .left_block {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-right: 6vw;
-        padding-left: 6vw;
-        background-color: #E53144;
-    }
-    
-    .right_block {
-        display: flex;
-        height: 50vh;
-        width: 100vw;
-        margin-top: 14vh;
-        margin-left: 2.5vw;
-    }
-    
-    .img_block1 {
-        border: 1vw solid #B31937;
-        object-fit: cover;
-    }
-    
-    .description_home {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 4.5vw;
-    }
-    
-    .p_block1 {
-        font-size: 1.5vw;
-        font-weight: 50;
-    }
-    
-    .quad1 {
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        gap: 9vw;
-        align-items: baseline;
-    }
-    
-    .orange_quad,
-    .orange_quad2 {
-        width: 7.81vw;
-        height: 7.81vw;
-        background: #ED7D62;
-    }
-    
-    .yellow_quad {
-        width: 3.9vw;
-        height: 3.9vw;
-        background: #F8B300;
-    }
-    
-    .light_quad {
-        width: 1.95vw;
-        height: 1.95vw;
-        background: #FBD281;
-    }
 }
 
 /* SU DI ME */
@@ -680,4 +594,26 @@ footer {
 
 footer p {
     color: #FDF7E9;
+}
+
+@media (max-width: 767px) {
+
+    .block1 {
+        height: 60vh;
+    }
+
+    .right_block {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        height: 50vh;
+        width: 100vw;
+        gap: 2vw;
+    }
+
+    .img_block1 {
+        border: 1vw solid #B31937;
+        object-fit: cover;
+        width: 35vw;
+    }
 }
