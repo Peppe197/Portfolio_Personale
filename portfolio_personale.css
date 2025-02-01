@@ -598,15 +598,69 @@ footer p {
 
 @media (max-width: 767px) {
 
+    h1 {
+        writing-mode: vertical-rl;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.1vw;
+        z-index: 1;
+        font-size: 10vw;
+        color: #FDF7E9;
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+    h2 {
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    h3 {
+        color: #E53144;
+        font-size: 6vw;
+        font-weight: 700;
+        white-space: nowrap;
+        margin-left: 2vw;
+    }
+
+    h4 {
+        color: #B31937;
+        font-size: 2.5vw;
+        font-weight: 700;
+        white-space: nowrap;
+        margin-left: 2vw;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 1.3vh;
+        padding-bottom: 1.3vh;
+        position: fixed;
+        background-color: #B31937;
+        align-items: center;
+        z-index: 100;
+    }
+
     .block1 {
         height: 60vh;
+    }
+
+    .left_block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 8vw;
+        padding-left: 8vw;
+        background-color: #E53144;
     }
 
     .right_block {
         display: flex;
         flex-direction: column;
         align-items: baseline;
-        height: 50vh;
+        height: auto;
         width: 100vw;
         gap: 2vw;
     }
@@ -616,4 +670,43 @@ footer p {
         object-fit: cover;
         width: 35vw;
     }
+
+    .description_home {
+        gap: 2vw;
+    }
+
+    .p_block1 {
+        font-size: 3vw;
+        font-weight: 50;
+    }
+
+    .quad1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        margin-top: 2vw;
+        gap: 5vw;
+        align-items: baseline;
+    }
+
+    .orange_quad,
+    .orange_quad2 {
+        width: 9vw;
+        height: 9vw;
+        background: #ED7D62;
+    }
+
+    .yellow_quad {
+        width: 6vw;
+        height: 6vw;
+        background: #F8B300;
+    }
+
+    .light_quad {
+        width: 3vw;
+        height: 3vw;
+        background: #FBD281;
+    }
+
 }
