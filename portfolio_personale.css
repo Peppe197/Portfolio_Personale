@@ -102,7 +102,8 @@ a:hover {
 .block1,
 .block3,
 .block_me,
-.block_proj {
+.block_proj,
+.block_proj2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -749,7 +750,6 @@ footer p {
     .link2 {
         font-size: 3vw;
         margin: 2vw;
-        text-decoration: underline;
     }
 
     /*BLOCK 3 MOBILE*/
@@ -801,15 +801,9 @@ footer p {
 
     /* SU DI ME */
 
-    .block_me {
-        display: flex;
-        background-color: #FBD281;
-        height: 100vh;
-    }
-
     .right_block_me {
         justify-content: flex-start;
-        margin-top: 8vh;
+        margin-top: 7.5vh;
         gap: 4vw;
     }
 
@@ -827,6 +821,44 @@ footer p {
 
     .p_me {
         font-size: 4vw;
+    }
+
+    /* PROGETTI */
+
+    .block_proj2{
+        height: 100vh;
+    }
+
+    .proj {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 6.5vh;
+    }
+
+    .light_quad_proj,
+    .yellow_quad_proj,
+    .orange_quad_proj {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vw;
+        height: 45vw;
+        transition: ease-in 200ms;
+    }
+
+    .light_quad_proj_img,
+    .yellow_quad_proj_img,
+    .orange_quad_proj_img {
+        width: 40vw;
+        height: 40vw;
+        transition: ease-in-out 300ms;
+        filter: saturate(100%);
+    }
+    .title_center_proj {
+        font-size: 4vw;
+        margin-top: 2vw;
     }
 
     /* FOOTER MOBILE */
