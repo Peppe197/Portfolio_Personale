@@ -93,7 +93,7 @@ nav a::after {
     width: 0;
     height: 1px;
     transition: 0.15s ease-in-out;
-    background-color: #A6B3B5;
+    background-color: #FDF7E9
 }
 
 nav a:hover:after {
@@ -108,7 +108,6 @@ nav a:hover:after {
     position: relative;
     font-size: 2vh;
     display: none;
-    filter: invert(50%) sepia(12%) saturate(258%) hue-rotate(153deg) brightness(89%) contrast(89%);
 }
 
 .open-menu {
@@ -688,26 +687,25 @@ footer p {
     /*HAMBURGER*/
 
     nav {
-        position: fixed;
         display: flex;
-        /* align-items: center; */
-        /* justify-content: center; */
         flex-direction: column;
+        align-items: center;
         width: 30%;
-        height: 100vh;
+        height: 18.3vh;
         position: fixed;
         padding-top: 80px;
         top: 0;
         right: -100%;
         z-index: 100;
         transition: right 0.3s ease-in-out;
-        background-color: #a7afb0;
+        background-color: #E53144
     }
 
     nav a {
         color: #ffffff;
         font-size: 2.5vh;
-        padding: 2%;
+        margin-left: 2vw;
+        padding:1.2vw;
     }
 
     .open-menu,
