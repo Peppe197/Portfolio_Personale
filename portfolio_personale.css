@@ -918,7 +918,7 @@ footer p {
 
     .arrow a {
         text-decoration: underline;
-        color: #B31937;
+        text-decoration-color: #B31937;
     }
 
     .img_proj_layout {
