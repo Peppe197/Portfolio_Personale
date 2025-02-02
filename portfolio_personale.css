@@ -90,7 +90,8 @@ a:hover {
 
 /* MAIN */
 
-.block1 {
+.block1,
+.block_proj_contact {
     height: 100vh;
 }
 
@@ -103,7 +104,7 @@ a:hover {
 .block3,
 .block_me,
 .block_proj,
-.block_proj2 {
+.block_proj_contact {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -799,7 +800,7 @@ footer p {
         filter: saturate(100%);
     }
 
-    /* SU DI ME */
+    /* SU DI ME MOBILE */
 
     .right_block_me {
         justify-content: flex-start;
@@ -823,9 +824,9 @@ footer p {
         font-size: 4vw;
     }
 
-    /* PROGETTI */
+    /* PROGETTI MOBILE */
 
-    .block_proj2{
+    .block_proj_contact {
         height: 100vh;
     }
 
@@ -840,25 +841,87 @@ footer p {
     .light_quad_proj,
     .yellow_quad_proj,
     .orange_quad_proj {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 45vw;
         height: 45vw;
-        transition: ease-in 200ms;
     }
+
+    .light_quad_proj:hover,
+    .yellow_quad_proj:hover,
+    .orange_quad_proj:hover {
+        width: 50vw;
+        height: 50vw;
+    }
+
 
     .light_quad_proj_img,
     .yellow_quad_proj_img,
     .orange_quad_proj_img {
         width: 40vw;
         height: 40vw;
-        transition: ease-in-out 300ms;
         filter: saturate(100%);
     }
+
+    .light_quad_proj_img:hover,
+    .yellow_quad_proj_img:hover,
+    .orange_quad_proj_img:hover {
+        width: 45vw;
+        height: 45vw;
+    }
+
     .title_center_proj {
         font-size: 4vw;
         margin-top: 2vw;
+    }
+
+    /*CONTATTI MOBILE*/
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 6.5vh;
+    }
+
+    .light_quad_contact,
+    .yellow_quad_contact,
+    .orange_quad_contact {
+        width: 30vw;
+        height: 30vw;
+        transition: ease-in 200ms;
+    }
+
+    .light_quad_contact:hover,
+    .yellow_quad_contact:hover,
+    .orange_quad_contact:hover {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .light_quad_contact_img,
+    .yellow_quad_contact_img,
+    .orange_quad_contact_img {
+        width: 20vw;
+        height: 20vw;
+        transition: ease-in-out 300ms;
+        filter: saturate(100%);
+    }
+
+    .light_quad_contact_img:hover,
+    .yellow_quad_contact_img:hover,
+    .orange_quad_contact_img:hover {
+        width: 25vw;
+        height: 25vw;
+
+    }
+
+    .title_center_contact {
+        display: flex;
+        justify-content: center;
+        font-size: 1.8vw;
+        text-transform: uppercase;
+        margin-top: 0.5vw;
+        text-decoration: none;
     }
 
     /* FOOTER MOBILE */
@@ -873,12 +936,6 @@ footer p {
         height: 5vw;
     }
 
-    .logo_footer:hover {
-        padding: 0 1.5vw;
-        background-color: #E53144;
-        transition: 200ms ease-in;
-    }
-
     .icons_footer {
         width: 4vw;
         height: 4vw;
@@ -890,7 +947,6 @@ footer p {
     }
 
     footer p {
-        color: #FDF7E9;
         font-size: 2.3vw;
     }
 
