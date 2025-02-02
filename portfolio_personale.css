@@ -918,6 +918,7 @@ footer p {
 
     .arrow a {
         text-decoration: underline;
+        color: #B31937;
     }
 
     .img_proj_layout {
@@ -1003,5 +1004,4 @@ footer p {
     footer p {
         font-size: 2.3vw;
     }
-
 }
