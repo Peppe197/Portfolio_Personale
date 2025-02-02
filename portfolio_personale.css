@@ -691,7 +691,7 @@ footer p {
         flex-direction: column;
         align-items: center;
         width: 30%;
-        height: 18.3vh;
+        height: 19vh;
         position: fixed;
         padding-top: 80px;
         top: 0;
@@ -710,11 +710,11 @@ footer p {
 
     .open-menu,
     .close-menu {
-        display: block;
+        display: flex;
     }
 
     #check:checked~.open-menu {
-        display: none;
+        display: flex;
     }
 
     #check:checked~nav {
@@ -722,7 +722,7 @@ footer p {
     }
 
     #check:checked~nav .close-menu {
-        display: block;
+        display: flex;
     }
 
     /*BLOCK1-2 MOBILE*/
@@ -798,7 +798,7 @@ footer p {
 
     .quad2 {
         flex-direction: column;
-        margin: 2vw 0;
+        margin: 2vw 0 2vw 2vw;
         gap: 5vw;
     }
 
