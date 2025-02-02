@@ -85,6 +85,49 @@ a:hover {
     text-decoration: underline;
 }
 
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: 0.15s ease-in-out;
+    background-color: #A6B3B5;
+}
+
+nav a:hover:after {
+    width: 100%;
+}
+
+.open-menu,
+.close-menu {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    font-size: 2vh;
+    display: none;
+    filter: invert(50%) sepia(12%) saturate(258%) hue-rotate(153deg) brightness(89%) contrast(89%);
+}
+
+.open-menu {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
 /*FINE HAMBURGER*/
 
 /* MAIN */
@@ -640,6 +683,48 @@ footer p {
     .header_logo {
         height: 3.5vh;
         margin-left: 2vw;
+    }
+
+    /*HAMBURGER*/
+
+    nav {
+        position: fixed;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        flex-direction: column;
+        width: 30%;
+        height: 100vh;
+        position: fixed;
+        padding-top: 80px;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        transition: right 0.3s ease-in-out;
+        background-color: #a7afb0;
+    }
+
+    nav a {
+        color: #ffffff;
+        font-size: 2.5vh;
+        padding: 2%;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.open-menu {
+        display: none;
+    }
+
+    #check:checked~nav {
+        right: 0;
+    }
+
+    #check:checked~nav .close-menu {
+        display: block;
     }
 
     /*BLOCK1-2 MOBILE*/
