@@ -112,14 +112,14 @@ nav a:hover:after {
 .open-menu {
     position: absolute;
     top: 50%;
-    right: 5vw;
+    right: 4vw;
     transform: translateY(-50%);
 }
 
 .close-menu {
     position: absolute;
     top: 2vh;
-    right: 5vw;
+    right: 4vw;
 }
 
 #check {
