@@ -106,7 +106,6 @@ nav a:hover:after {
     width: 40px;
     height: 40px;
     position: relative;
-    font-size: 2vh;
     display: none;
 }
 
@@ -675,8 +674,7 @@ footer p {
 
     header {
         width: 100%;
-        padding-top: 1.3vh;
-        padding-bottom: 1.3vh;
+        height: 4vh;
     }
 
     .header_logo {
