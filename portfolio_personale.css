@@ -755,11 +755,11 @@ footer p {
     }
 
     .img_block1 {
-        width: 35vw;
+        width: 30vw;
     }
 
     .description_home {
-        gap: 2vw;
+        gap: 1.5vw;
     }
 
     .p_block1 {
@@ -910,7 +910,7 @@ footer p {
     .proj {
         flex-direction: column;
         justify-content: space-evenly;
-        margin-top: 6.5vh;
+        margin-top: 10vh;
     }
 
     .light_quad_proj,
@@ -953,10 +953,10 @@ footer p {
     .right_block_proj {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         height: 100vh;
         width: 100vw;
-        margin-top: 7vh;
+        margin-top: 10vh;
     }
 
     .p_proj {
