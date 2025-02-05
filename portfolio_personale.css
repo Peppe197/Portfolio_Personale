@@ -783,8 +783,7 @@ footer p {
     }
 
     .light_quad {
-        width: 3vw;
-        height: 3vw;
+        display: none;
     }
 
     .h2_block2 {
@@ -1013,7 +1012,7 @@ footer p {
     .contact {
         flex-direction: column;
         justify-content: space-evenly;
-        margin-top: 6.5vh;
+        margin-top: 10vh;
     }
 
     .light_quad_contact,
