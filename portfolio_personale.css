@@ -147,7 +147,7 @@ nav a:hover:after {
 .block_proj_contact {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
 }
 
 .block2,
@@ -462,7 +462,7 @@ nav a:hover:after {
 
 .block_proj {
     height: 100%;
-    width: 100%;
+    width: 101vw;
 }
 
 .right_block_proj {
@@ -882,7 +882,7 @@ footer p {
     .right_block_me {
         justify-content: flex-start;
         margin-top: 10vh;
-        gap: 4vw;
+        gap: 8vw;
     }
 
     .orange_quad_me {
