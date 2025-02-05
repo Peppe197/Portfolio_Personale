@@ -759,7 +759,7 @@ footer p {
     }
 
     .description_home {
-        gap: 1.5vw;
+        gap: 2vw;
     }
 
     .p_block1 {
@@ -768,7 +768,7 @@ footer p {
 
     .quad1 {
         flex-direction: column;
-        gap: 5vw;
+        gap:3vw;
     }
 
     .orange_quad,
@@ -783,7 +783,8 @@ footer p {
     }
 
     .light_quad {
-        display: none;
+        width: 3vw;
+        height: 3vw;
     }
 
     .h2_block2 {
