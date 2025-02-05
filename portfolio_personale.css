@@ -703,7 +703,7 @@ footer p {
         color: #ffffff;
         font-size: 2.5vh;
         margin-left: 2vw;
-        padding:1.2vw;
+        padding: 1.2vw;
     }
 
     .open-menu,
@@ -750,9 +750,8 @@ footer p {
         margin-top: 9vh;
         flex-direction: column;
         align-items: baseline;
-        height: auto;
-        width: 100%;
-        gap: 2vw;
+        justify-content: center;
+        margin-left: 0;
     }
 
     .img_block1 {
@@ -764,7 +763,7 @@ footer p {
     }
 
     .p_block1 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .quad1 {
@@ -789,7 +788,7 @@ footer p {
     }
 
     .h2_block2 {
-        font-size: 6vw;
+        font-size: 8vw;
         margin-left: 2vw;
         padding-top: 0;
     }
@@ -812,14 +811,14 @@ footer p {
     }
 
     .red_quad {
-        width: 45vw;
-        height: 45vw;
+        width: 50vw;
+        height: 50vw;
         margin-left: 0;
     }
 
     .p_block2 {
         margin: 2vw;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .link2 {
@@ -840,6 +839,10 @@ footer p {
 
     .h1_block3 {
         font-size: 6vw;
+    }
+
+    .h2_block3 {
+        font-size: 8vw;
     }
 
     .quad3 {
